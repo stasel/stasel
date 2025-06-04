@@ -2,6 +2,9 @@
 
 I'm a software engineer passionate about teaching and mentoring others. 
 
+| ![stasel's GitHub stats](https://github-readme-stats.vercel.app/api?username=stasel) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=stasel&layout=compact) |
+|------------|-------------|
+
 ## Things I am interested in
 - 🕵️‍♂️ Cyber security
 - 📱 Mobile development
