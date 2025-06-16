@@ -11,7 +11,7 @@ I'm a software engineer passionate about teaching and mentoring others.
 - 🧠 Problem solving and coding challenges
 
 ## 🛠️ Interesting projects:
-- **[WebRTC demo for iOS](httpsgithub.com/stasel/WebRTC-iOS)** - A very simple app with audio and video calls using WebRTC.
+- **[WebRTC demo for iOS](https://github.com/stasel/WebRTC-iOS)** - A very simple app with audio and video calls using WebRTC.
 - **[WebRTC binary distribution](https://github.com/stasel/WebRTC)** - for macOS and iOS so you don’t have to suffer through compiling them yourself 😅
 - **[NodeGSM](https://github.com/stasel/NodeGSM)**: A Node.JS based GSM modem API. Connects to modems using serial connection to enable SMS and call functionalities.
 - **[secfs](https://github.com/stasel/secfs)**: A secure encrypted file system built on top of FUSE using the good old C language. 
