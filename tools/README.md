@@ -4,7 +4,7 @@ A collection of shell aliases, functions, and utilities to boost productivity fo
 
 ## Quick Install
 ```bash
-curl -sSL https://raw.githubusercontent.com/stasel/stasel/main/tools/install.sh | sh
+curl -sSL https://raw.githubusercontent.com/stasel/stasel/main/tools/install.sh | bash
 ```
 
 ## Update
