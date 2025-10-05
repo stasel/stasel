@@ -8,7 +8,6 @@ function download() {
     curl -SsL https://raw.githubusercontent.com/stasel/stasel/refs/heads/main/tools/.stasel/macOS.sh > ~/.stasel/macOS.sh
     curl -SsL https://raw.githubusercontent.com/stasel/stasel/refs/heads/main/tools/.stasel/shortcuts.sh > ~/.stasel/shortcuts.sh
     curl -SsL https://raw.githubusercontent.com/stasel/stasel/refs/heads/main/tools/.stasel/Brewfile > ~/.stasel/Brewfile
-    echo "Done."
 }
 
 function addSourceIfNeeded() {
@@ -22,4 +21,4 @@ function addSourceIfNeeded() {
 download
 addSourceIfNeeded "$HOME/.zshrc"
 addSourceIfNeeded "$HOME/.bashrc"
-source ~/.shortcuts.sh
+source ~/.stasel/shortcuts.sh
