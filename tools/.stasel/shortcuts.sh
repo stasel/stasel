@@ -1,17 +1,7 @@
 #!/bin/sh
 
-###################################
-#          Common Unix            #
-###################################
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
-
-if [[ "$(uname -s)" == "Darwin" ]]; then
-    source ~/.stasel/macOS.sh
-elif [[ "$(uname -s)" == "Linux" ]]; then
-    source ~/.stasel/linux.sh
-fi
 
 alias tools-update="bash <(curl -sSL https://raw.githubusercontent.com/stasel/bashrc/master/install.sh) && source ~/.stasel.sh"
 alias so="ssh orion@orionet.nl"
@@ -66,3 +56,13 @@ function myip() {
   country=$(curl -fsSL --max-time 5 ifconfig.co/country 2>/dev/null) || { echo "Country unknown"; return; }
   echo "  - $ip [${country}]"
 }
+
+# OS-specific shortcuts
+if [[ "$(uname -s)" == "Darwin" ]]; then
+    source ~/.stasel/macOS.sh
+elif [[ "$(uname -s)" == "Linux" ]]; then
+    source ~/.stasel/linux.sh
+fi
+
+# Docker shortcuts
+source ~/.stasel/docker.sh

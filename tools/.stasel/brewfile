@@ -1,0 +1,35 @@
+# CLI tools
+brew "node"
+brew "ffmpeg"
+brew "tesseract"
+brew "imagemagick"
+brew "mas"
+brew "nmap"
+brew "jq"
+brew "yt-dlp"
+
+# Apps
+#cask "firefox"
+cask "visual-studio-code"
+cask "zoom"
+cask "1password"
+cask "iterm2"
+cask "docker"
+cask "daisydisk"
+cask "postman"
+cask "iina"
+cask "obs"
+
+# Mac AppStore apps (Requires to login to Appstore)
+mas "iMovie", id: 408981434
+mas "Pages", id: 409201541
+mas "Numbers", id: 409203825
+mas "Keynote", id: 409183694
+mas "WhatsApp Desktop", id: 1147396723
+mas "Slack for Desktop", id: 803453959
+mas "Telegram", id: 747648890
+mas "WireGuard", id: 1451685025
+mas "Microsoft Remote Desktop", id: 1295203466
+
+# VSCode extensions
+vscode "vscode-icons-team.vscode-icons"
