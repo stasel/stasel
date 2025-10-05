@@ -12,8 +12,8 @@ function download() {
 
 function addSourceIfNeeded() {
     local rcpath=$1
-    if [ -f $rcpath ] && ! grep -q 'source ~/.shortcuts.sh' $rcpath ; then 
-        echo $'\n# stasel additions\nsource ~/.shortcuts.sh\n' >> $rcpath
+    if [ -f $rcpath ] && ! grep -q 'source ~/.stasel/shortcuts.sh' $rcpath ; then 
+        echo $'\n# stasel additions\nsource ~/.stasel/shortcuts.sh\n' >> $rcpath
         echo "Installed aliases to $rcpath"
     fi
 }
