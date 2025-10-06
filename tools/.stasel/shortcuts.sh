@@ -3,7 +3,7 @@
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-alias tools-update="bash <(curl -sSL https://raw.githubusercontent.com/stasel/bashrc/master/install.sh) && source ~/.stasel.sh"
+alias tools-update="curl -sSL https://raw.githubusercontent.com/stasel/stasel/main/tools/install.sh | bash"
 alias so="ssh orion@orionet.nl"
 
 # General shortcuts
@@ -29,11 +29,11 @@ alias cmaa="git commit --amend --no-edit"
 alias lg="git log"
 alias pu="git push"
 alias pll="git pull"
-alias puu="ad && cmaa && pu -f"
+alias PU="ad && cmaa && pu -f"
 
 # npm shortcuts
 alias ni="npm install"
-alias nci="rm -rf node_modules package-lock.json && npm i"
+alias NI="rm -rf node_modules package-lock.json && npm i"
 alias nd="npm run dev"
 alias ns="npm start"
 alias nr="npm run"
