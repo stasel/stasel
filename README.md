@@ -19,6 +19,7 @@ I'm a software engineer passionate about teaching and mentoring others.
 | ![stasel's GitHub stats](https://github-readme-stats.vercel.app/api?username=stasel) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=stasel&layout=compact) |
 |------------|-------------|
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Stasel)](https://git.io/streak-stats)
 
 ## 🌐 Connect with Me
 
