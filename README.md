@@ -9,6 +9,8 @@ I'm a software engineer passionate about teaching and mentoring others.
 - 👾 Spending 10 hours to write a script that saves 2 hours of work
 - 👨‍💻 Mentoring and teaching
 - 🧠 Problem solving and coding challenges
+- 🗯️ Arguing with AI
+- 🐳 Self hosting an unhealthy amount of containers
 
 ## 🛠️ Interesting projects:
 - **[WebRTC demo for iOS](https://github.com/stasel/WebRTC-iOS)** - A very simple app with audio and video calls using WebRTC.
